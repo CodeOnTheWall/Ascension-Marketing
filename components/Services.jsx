@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Services() {
   return (
     <>
-      <div className=" h-screen relative top-52 flex flex-col mx-auto max-w-9x1 px-10  items-center">
+      <div className=" h-screen relative top-44 flex flex-col mx-auto max-w-9x1 px-10  items-center">
         <motion.h3
           initial={{
             y: -100,
