@@ -18,7 +18,7 @@ export default function FAQ() {
         }}
         className="underline decoration-[#014f86] underline-offset-8 rounded-full uppercase tracking-[20px] text-2xl"
       >
-        FAQ's
+        FAQ&apos;s
       </motion.h3>
 
       <motion.div className="absolute top-60 w-full h-[200px] justify-center items-center bg-gradient-to-r from-green-500 to-blue-500" />

@@ -99,7 +99,7 @@ function Hero() {
               transition={{ duration: 0.7, ease: "easeIn" }}
             >
               <a href="#FAQ">
-                <button>FAQ's</button>
+                <button>FAQ&apos;s</button>
               </a>
             </motion.div>
           </div>

@@ -61,7 +61,7 @@ function Header() {
           />
           <a href="#contact">
             <p className=" uppercase text-sm text-white animate-bounce">
-              Let's Talk
+              Let&apos;s Talk
             </p>
           </a>
         </motion.div>
