@@ -1,7 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 // [] is a just in time complier for custom values
-function BackgroundCircles() {
+export default function BackgroundCircles() {
   return (
     <motion.div
       initial={{
@@ -16,7 +18,7 @@ function BackgroundCircles() {
         delay: 1,
         duration: 2.5,
       }}
-      className=" relative flex justify-center items-center"
+      className="hidden md:flex justify-center items-center -z-50"
     >
       <div className=" absolute border border-[#014f86] rounded-full h-[250px] w-[250px] mt-52 animate-ping" />
       {/* <div className=" absolute border border-[#014f86] rounded-full h-[300px] w-[300px] mt-52 " /> */}
@@ -28,5 +30,3 @@ function BackgroundCircles() {
     </motion.div>
   );
 }
-
-export default BackgroundCircles;
